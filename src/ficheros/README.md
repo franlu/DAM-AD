@@ -1,5 +1,7 @@
 # Paquete ficheros
 
+Ejemplos utilizando las clases asociadas a la manipulación de ficheros y directorios
+
 1. [Declaración](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/declaracion.java)
     Ejemplo de declaración de un fichero.
 2. [Información](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/informacion.java)
