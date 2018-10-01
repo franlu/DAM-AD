@@ -2,8 +2,7 @@
 
 Ejemplos utilizando las clases asociadas a la manipulación de ficheros y directorios
 
-- File
-- FileReader, FileWritter y BufferedReader
+- File,FileReader, FileWritter y BufferedReader
 
 1. [Declaración](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/declaracion.java)
     Ejemplo de declaración de un fichero.
