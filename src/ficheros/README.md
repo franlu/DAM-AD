@@ -2,7 +2,7 @@
 
 Ejemplos utilizando las clases asociadas a la manipulación de ficheros y directorios
 
-- File,FileReader, FileWritter y BufferedReader
+- File, FileReader, FileWritter, BufferedReader, BufferedWriter
 
 1. [Declaración](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/declaracion.java)
     Ejemplo de declaración de un fichero.
@@ -12,7 +12,7 @@ Ejemplos utilizando las clases asociadas a la manipulación de ficheros y direct
 	Lee los caracteres, uno a uno, que contiene un fichero de texto.
 3. [escribirCaracter]()
     Escribe caracteres, uno a uno, en un fichero de texto.
-3. [leerLinea]()
+3. [leerLinea](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/leerLinea.java)
 	Lee las lineas completas que contiene un fichero de texto.
-3. [escribirLinea]()
+3. [escribirLinea](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/escribirLinea.java)
     Escriber lineas completas en un fichero de texto.
