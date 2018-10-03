@@ -18,6 +18,8 @@ Ejemplos utilizando las clases asociadas a la manipulación de ficheros y direct
     Escriber lineas completas en un fichero de texto.
 7. [leerEscribirBytes](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/leerEscribirBytes.java)
     Escribe y lee datos sobre un fichero binario.
+8. [datosPrimitivos](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/datosPrimitivos.java)
+    Escribe y lee datos primitivos sobre un fichero binario.
     
     
     
@@ -25,3 +27,4 @@ Ejemplos utilizando las clases asociadas a la manipulación de ficheros y direct
 ### Ejercicios
 
 - Crea un programa en Java que copie el contenido de un fichero de texto en un fichero de texto vacio. La ruta a los fichero se introducira mendiante teclado.
+- Crea un programa en Java que escriba en un fichero de bytes una lista de nombres y edades, utilizando la clase *DataOutputStream*.
