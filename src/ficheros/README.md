@@ -30,4 +30,4 @@ Ejemplos utilizando las clases asociadas a la manipulaciÃ³n de ficheros y dire
 - Crea un programa en Java que escriba en un fichero de bytes una lista de nombres y edades, utilizando la clase *DataOutputStream*.
 - Crea un programa en Java que lea de un fichero de bytes una lista de nombres y edades, debe enviar la lectura a la salida estandar. Utilizando la clase *DataOutputStream*.
 
--Solicitar cinco veces al usuario los siguientes datos: fecha, concepto, cantidad, tipo. Estos datos corresponden a los movimientos de su cuenta corriente. Almacenar los datos en un fichero llamado movimientos.dat dentro de una carpeta del proyecto llamada datos. A continuación leer del fichero las cantidades y muestra un mensaje con el saldo actual de la cuenta.
+- Solicitar cinco veces al usuario los siguientes datos: fecha, concepto, cantidad, tipo. Estos datos corresponden a los movimientos de su cuenta corriente. Almacenar los datos en un fichero llamado movimientos.dat dentro de una carpeta del proyecto llamada datos. A continuación leer del fichero las cantidades y muestra un mensaje con el saldo actual de la cuenta.
