@@ -16,3 +16,10 @@ Ejemplos utilizando las clases asociadas a la manipulación de ficheros y direct
 	Lee las lineas completas que contiene un fichero de texto.
 3. [escribirLinea](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/escribirLinea.java)
     Escriber lineas completas en un fichero de texto.
+    
+    
+    
+    
+### Ejercicios
+
+- Crea un programa en Java que copie el contenido de un fichero de texto en un fichero de texto vacio. La ruta a los fichero se introducira mendiante teclado.
