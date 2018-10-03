@@ -16,6 +16,8 @@ Ejemplos utilizando las clases asociadas a la manipulación de ficheros y direct
 	Lee las lineas completas que contiene un fichero de texto.
 3. [escribirLinea](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/escribirLinea.java)
     Escriber lineas completas en un fichero de texto.
+7. [leerEscribirBytes](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/leerEscribirBytes.java)
+    Escribe y lee datos sobre un fichero binario.
     
     
     
