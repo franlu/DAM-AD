@@ -4,10 +4,10 @@ Ejemplos utilizando las clases asociadas a la manipulaciÃ³n de ficheros y dire
 
 - File, FileReader, FileWritter, BufferedReader, BufferedWriter
 
-1. [DeclaraciÃ³n](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/declaracion.java)
-    Ejemplo de declaraciÃ³n de un fichero.
-2. [InformaciÃ³n](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/informacion.java)
-    Muestra la informaciÃ³n de un fichero.
+1. [Declaración](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/declaracion.java)
+    Ejemplo de declaración de un fichero.
+2. [Información](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/informacion.java)
+    Muestra la información de un fichero.
 3. [leerCaracter]()
 	Lee los caracteres, uno a uno, que contiene un fichero de texto.
 3. [escribirCaracter]()
@@ -30,4 +30,4 @@ Ejemplos utilizando las clases asociadas a la manipulaciÃ³n de ficheros y dire
 - Crea un programa en Java que escriba en un fichero de bytes una lista de nombres y edades, utilizando la clase *DataOutputStream*.
 - Crea un programa en Java que lea de un fichero de bytes una lista de nombres y edades, debe enviar la lectura a la salida estandar. Utilizando la clase *DataOutputStream*.
 
-- Crear la clase MovimientoBancario con los siguientes atributos: fecha, concepto, cantidad, tipo. Escribir constructor, getters y setters. Estos datos corresponden a los movimientos de una cuenta corriente. Solicitar al usuario cinco movimientos (usando MovimientoBancario) y almacenarlos en un fichero llamado movimientos.dat dentro de una carpeta del proyecto llamada datos. A continuación leer del fichero las cantidades y muestrar un mensaje con el saldo actual de la cuenta. El atributo tipo es Booleano. En caso de ser true se estara indicando un ingreso, en caso contrario se retira dinero de la cuenta.
+- Crear la clase *MovimientoBancario* con los siguientes atributos: fecha, concepto, cantidad, tipo. Escribir constructor, getters y setters. Estos datos corresponden a los movimientos de una cuenta corriente. Solicitar al usuario cinco movimientos (usando MovimientoBancario) y almacenarlos en un fichero llamado *movimientos.dat* dentro de una carpeta del proyecto llamada datos. A continuación leer del fichero las cantidades y mosstrar un mensaje con el saldo actual de la cuenta. El atributo tipo es Boolean. En caso de ser true se estará indicando un ingreso, en caso contrario se retira dinero de la cuenta.
