@@ -40,13 +40,13 @@ public class CrearEmpleadoXml {
                    document.createElement("empleado"); //nodo empleado
          document.getDocumentElement().appendChild(raiz); 
         
-         //a�adir ID                       
+         //añadir ID                       
          CrearElemento("id",Integer.toString(id), raiz, document); 
          //Apellido
          CrearElemento("apellido",apellidos.trim(), raiz, document); 
-         //a�adir DEP
+         //añadir DEP
          CrearElemento("dep",Integer.toString(dep), raiz, document); 
-         //a�adir salario
+         //añadir salario
          CrearElemento("salario",Double.toString(salario), raiz,
                                                           document); 
 	 }	
@@ -62,12 +62,16 @@ public class CrearEmpleadoXml {
             TransformerFactory.newInstance().newTransformer();
      transformer.transform(source, result);
     
+    // AÑADIR LINEAS PARA MOSTRAR EL DOCUMENTO POR CONSOLA
+    //
+    //	   
+	   
     }catch(Exception e){ System.err.println("Error: "+e); }
     
     file.close();  //cerrar fichero 	
  }//fin de main
  
- //Inserci�n de los datos del empleado
+ //Inserción de los datos del empleado
  static void  CrearElemento(String datoEmple, String valor,
                             Element raiz, Document document){
     Element elem = document.createElement(datoEmple); 
