@@ -20,3 +20,10 @@ Ejemplos utilizando las clases asociadas a la manipulaciÃ³n de ficheros y dire
     Escribe y lee datos sobre un fichero binario.
 8. [datosPrimitivos](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/datosPrimitivos.java)
     Escribe y lee datos primitivos sobre un fichero binario.
+
+
+
+
+## Ejercicios
+
+- [Relación Nº1](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/Ejercicios.md)
