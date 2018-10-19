@@ -12,7 +12,7 @@ Necesitamos una aplicación para gestionar una lista de reproducción de nuestra
 
 Se han de crear dos clases. Una clase para representar la lista de reproducción y otra clase para crea un menú de opciones sobre la lista.
 
--La primera opción se utiliza para crea un fichero, el nombre del fichero será: listaReproduccion.dat
+- La primera opción se utiliza para crea un fichero, el nombre del fichero será: listaReproduccion.dat
 
 - La segunda opción debe consultar los datos de una cancion del fichero aleatorio. Se solicitara a través de teclado un identificador de la canción. Si el ID existe se visualizaran los datos correspondientes en caso contrario se mostrara un mensaje de error.
 
