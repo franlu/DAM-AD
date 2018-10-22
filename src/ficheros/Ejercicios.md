@@ -10,7 +10,7 @@
 
 Necesitamos una aplicación para gestionar una lista de reproducción de nuestras canciones favoritas. Esta lista se debe almacenara en un fichero de acceso aleatorio(archivo de bytes). Para cada canción se almacenan los siguientes datos: ID, Año, Título, Artista, Album, Duración.
 
-Se han de crear dos clases. Una clase para representar la lista de reproducción y otra clase para crea un menú de opciones sobre la lista.
+Se han de crear dos clases. Una clase para representar la lista de reproducción (Otra opción: una clase para la cancion y otra para gestionar la lista) y otra clase para crea un menú de opciones sobre la lista.
 
 - La primera opción se utiliza para crea un fichero, el nombre del fichero será: listaReproduccion.dat
 
