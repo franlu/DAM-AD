@@ -22,7 +22,9 @@ Ejemplos utilizando las clases asociadas a la manipulaciÃ³n de ficheros y dire
     Escribe y lee datos primitivos sobre un fichero binario.
 
 
+## XML
 
+- [Gestión](https://github.com/franlu/DAM-AD/tree/master/src/ficheros/xml)
 
 ## Ejercicios
 
