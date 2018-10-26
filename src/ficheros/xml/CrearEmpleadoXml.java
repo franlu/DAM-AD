@@ -1,3 +1,4 @@
+package ficheros.xml;
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
 import javax.xml.transform.*;
@@ -33,7 +34,7 @@ public class CrearEmpleadoXml {
        }   
        String apellidos = new String(apellido);
        dep = file.readInt();
-  	 salario = file.readDouble();  
+  	   salario = file.readDouble();  
 	   
 	 if(id>0) { //id validos a partir de 1
 	   Element raiz = 
@@ -60,13 +61,13 @@ public class CrearEmpleadoXml {
             new StreamResult(new java.io.File("Empleados.xml"));        
      Transformer transformer =
             TransformerFactory.newInstance().newTransformer();
-     transformer.transform(source, result);
+     transformer.transform(source, result); // se transforma el documento al fichero
     
-    // AÑADIR LINEAS PARA MOSTRAR EL DOCUMENTO POR CONSOLA
-    //
-    //	   
+    // MOSTRAR EL DOCUMENTO POR CONSOLA
+    // Result console = new StreamResult(System.out);
+    // transformer.transform(source, console);	   
 	   
-    }catch(Exception e){ System.err.println("Error: "+e); }
+    }catch(Exception e){ System.err.println("Error: "+ e); }
     
     file.close();  //cerrar fichero 	
  }//fin de main
