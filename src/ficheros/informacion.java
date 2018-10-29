@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ficheros;
+package fichero;
 
 import java.io.*;
 
