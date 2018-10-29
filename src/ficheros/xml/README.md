@@ -7,33 +7,33 @@ Interfaces para usar DOM
 - **Node:** Representa cualquier nodo del documento.
 - **NodeList:** Lista con los nodos hijos de un nodo.
 - **Attr:** Permite acceder a los atributos de un nodo.
-- **Text:** Son los datos car醕ter de un elemento.
-- **CharacterData:** Atributos y m閠odos para manipular los datos de caracteres.
-- **DocumentType:** Informaci髇 de la etiqueta DOCTYPE.
+- **Text:** Son los datos car谩cter de un elemento.
+- **CharacterData:** Atributos y m茅todos para manipular los datos de caracteres.
+- **DocumentType:** Informaci贸n de la etiqueta DOCTYPE.
 
 Empleado
 - [Crear y escribir](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/CrearEmpleadoXml.java)
 - [Leer](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/LecturaEmpleadoXml.java)
 
-**Actividad: **
-Crear un documento XML partiendo del fichero que contiene informaci髇 sobre las canciones (lista de reproducci髇). Mostrar el contenido del documento por consola.
+**Actividad:**
+Crear un documento XML partiendo del fichero que contiene informaci贸n sobre las canciones (lista de reproducci贸n). Mostrar el contenido del documento por consola.
 	
 Acceso a ficheros XML con SAX
 - [Ejemplo](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/PruebaSax1.java)
 
-**Actividad: **
-Utiliza SAX para visualizar el contendio del fichero XML que contiene informaci髇 sobre canciones.	
+**Actividad:**
+Utiliza SAX para visualizar el contendio del fichero XML que contiene informaci贸n sobre canciones.	
 
-Serializaci髇 de objetos
+Serializaci贸n de objetos
 - [Crear Lista de personas](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/ListaPersonas.java)
 - [Escribir Personas](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/EscribirPersonas.java)
 - [Leer Personas](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/LeerPersonas.java)
 
-**Actividad: **
-Serializar los objetos canci髇 a un fichero XML.
+**Actividad:**
+Serializar los objetos canci贸n a un fichero XML.
 	
-Conversi髇 a otros formatos
+Conversi贸n a otros formatos
 - [Conversor](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/convertidor.java)
 
-**Actividad: **
-Crea una plantilla para convertir el fichero xml de canciones en un fichero html. Realiza la conversi髇.
+**Actividad:**
+Crea una plantilla para convertir el fichero xml de canciones en un fichero html. Realiza la conversi贸n.
