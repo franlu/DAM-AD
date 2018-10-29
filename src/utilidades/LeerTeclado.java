@@ -7,7 +7,9 @@ package utilidades;
  * @author @franlu
  *
  */
-public class Scanner {
+import java.util.Scanner;
+
+public class LeerTeclado {
 
 	/**
 	 * @param args
@@ -19,14 +21,15 @@ public class Scanner {
 
         String entradaTeclado = "";
 
-        //CreaciÃ³n de un objeto Scanner
-        Scanner entradaEscaner = new Scanner (System.in); 
+        //Creación de un objeto Scanner
+        Scanner entradaEscaner = new Scanner(System.in); 
         
-        //Invocamos un mÃ©todo sobre un objeto Scanner
+        //Invocamos un método sobre un objeto Scanner
         entradaTeclado = entradaEscaner.nextLine (); 
 
         System.out.println ("Entrada recibida por teclado es: \"" + entradaTeclado +"\"");
 
+        entradaEscaner.close();
 	}
 
 }
