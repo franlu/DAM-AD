@@ -10,8 +10,8 @@ public class ListaPersonas {
     public ListaPersonas(){    	
     }
 
-    public void add(Persona per) {
-            lista.add(per);
+    public void add(Persona p) {
+            lista.add(p);
     }
    
    public List<Persona> getListaPersonas() {

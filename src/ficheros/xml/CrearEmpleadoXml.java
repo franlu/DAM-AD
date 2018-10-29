@@ -1,4 +1,5 @@
 package ficheros.xml;
+
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
 import javax.xml.transform.*;
@@ -8,17 +9,19 @@ import java.io.*;
 
 public class CrearEmpleadoXml {
  public static void main(String args[]) throws IOException{
-   File fichero = new File("AleatorioEmple.dat");   
+   File fichero = new File("datos\empleado.dat");   
    RandomAccessFile file = new RandomAccessFile(fichero, "r");
    
    int  id, dep, posicion=0; //para situarnos al principio del fichero        
    Double salario;
    char apellido[] = new char[10], aux;
      
+   // Instancia para construir el parser
    DocumentBuilderFactory factory =
                   DocumentBuilderFactory.newInstance();
   
-   try{
+   try {
+	   
      DocumentBuilder builder = factory.newDocumentBuilder();
      DOMImplementation implementation = builder.getDOMImplementation();
      Document document = 
@@ -26,35 +29,39 @@ public class CrearEmpleadoXml {
      document.setXmlVersion("1.0"); 
    
      for(;;) {
-	 file.seek(posicion); //nos posicionamos 
-	 id=file.readInt();   // obtengo id de empleado	  	  
-       for (int i = 0; i < apellido.length; i++) {
-         aux = file.readChar();
-         apellido[i] = aux;    
-       }   
-       String apellidos = new String(apellido);
-       dep = file.readInt();
-  	   salario = file.readDouble();  
-	   
-	 if(id>0) { //id validos a partir de 1
-	   Element raiz = 
-                   document.createElement("empleado"); //nodo empleado
-         document.getDocumentElement().appendChild(raiz); 
-        
-         //añadir ID                       
-         CrearElemento("id",Integer.toString(id), raiz, document); 
-         //Apellido
-         CrearElemento("apellido",apellidos.trim(), raiz, document); 
-         //añadir DEP
-         CrearElemento("dep",Integer.toString(dep), raiz, document); 
-         //añadir salario
-         CrearElemento("salario",Double.toString(salario), raiz,
-                                                          document); 
-	 }	
-	 posicion= posicion + 36; // me posiciono para el sig empleado	  	  
-	 if (file.getFilePointer() == file.length()) break; 
+    	 
+		 file.seek(posicion);
+		 id=file.readInt();   // obtengo id de empleado	  	  
+	       for (int i = 0; i < apellido.length; i++) {
+	         aux = file.readChar();
+	         apellido[i] = aux;    
+	       }   
+	       String apellidos = new String(apellido);
+	       dep = file.readInt();
+	  	   salario = file.readDouble();  
+		   
+		 if(id>0) {
+		   
+			 Element raiz = 
+	                   document.createElement("empleado"); //nodo empleado
+	         document.getDocumentElement().appendChild(raiz); 
+	        
+	         // ID                       
+	         CrearElemento("id",Integer.toString(id), raiz, document); 
+	         // Apellido
+	         CrearElemento("apellido",apellidos.trim(), raiz, document); 
+	         // Dpto
+	         CrearElemento("dep",Integer.toString(dep), raiz, document); 
+	         // Salario
+	         CrearElemento("salario",Double.toString(salario), raiz,
+	                                                          document); 
+		 }	
+		 
+		 posicion= posicion + 36; // me posiciono para el sig empleado	  	  
+		 
+		 if (file.getFilePointer() == file.length()) break; 
 
-     }//fin del for que recorre el fichero
+     }
 		
      Source source = new DOMSource(document);
      Result result = 
@@ -72,7 +79,7 @@ public class CrearEmpleadoXml {
     file.close();  //cerrar fichero 	
  }//fin de main
  
- //Inserción de los datos del empleado
+ //Inserci�n de los datos del empleado
  static void  CrearElemento(String datoEmple, String valor,
                             Element raiz, Document document){
     Element elem = document.createElement(datoEmple); 

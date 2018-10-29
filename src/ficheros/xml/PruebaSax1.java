@@ -18,7 +18,7 @@ public class PruebaSax1 {
  	 InputSource fileXML = new InputSource("alumnos.xml");	    
        procesadorXML.parse(fileXML);        	      
 	}
-}//fin PruebaSax1
+}
 
 class GestionContenido extends DefaultHandler {	 
 	    public GestionContenido() {
@@ -41,7 +41,7 @@ class GestionContenido extends DefaultHandler {
 	    public void characters(char[] ch, int inicio, int longitud) 
                                             throws SAXException {
 		   String car=new String(ch, inicio, longitud);
-               //quitar saltos de lÃ­nea	
+           //quitar saltos de línea	
 		   car = car.replaceAll("[\t\n]","");	   
 		   System.out.printf ("\t Caracteres: %s %n", car);		
 	    }	

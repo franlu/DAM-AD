@@ -11,12 +11,12 @@ public class convertidor {
  public static void main(String argv[]) throws IOException{ 
   String hojaEstilo = "alumnosPlantilla.xsl";
   String datosAlumnos = "alumnos.xml";
-  File pagHTML = new File("mipagina.html");
+  File pagHTML = new File("alumnos.html");
   FileOutputStream os = new FileOutputStream(pagHTML); //crear fichero HTML
   
   Source estilos =new StreamSource(hojaEstilo); //fuente XSL
   Source datos =new StreamSource(datosAlumnos); //fuente XML
-  Result result = new StreamResult(os);         //resultado de la transformaciï¿½n
+  Result result = new StreamResult(os);         //resultado de la transformación
   
   try{     
    Transformer transformer =  
@@ -26,5 +26,5 @@ public class convertidor {
   catch(Exception e){System.err.println("Error: "+e);}
   
   os.close();  //cerrar fichero 	
- }//de main
-}//de la clase
+ }
+}

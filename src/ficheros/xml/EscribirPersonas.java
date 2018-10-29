@@ -3,15 +3,19 @@ import java.io.*;
 import com.thoughtworks.xstream.XStream;
 
 public class EscribirPersonas {
-  public static void main(String[] args)
+  
+	public static void main(String[] args)
           throws IOException, ClassNotFoundException {   	
-    File fichero = new File("FichPersona.dat");
-    FileInputStream filein = new 
+    
+		File fichero = new File("persona.dat");
+   		FileInputStream filein = new 
                FileInputStream(fichero);//flujo de entrada   
-    //conecta el flujo de bytes al flujo de datos
-    ObjectInputStream dataIS = new ObjectInputStream(filein);      
-    System.out.println
-           ("Comienza el proceso de creaciï¿½n del fichero a XML ...");
+    
+		//conecta el flujo de bytes al flujo de datos
+    	ObjectInputStream dataIS = new ObjectInputStream(filein);      
+    
+		System.out.println
+           ("Comienza el proceso de creación del fichero a XML ...");
 				
     //Creamos un objeto Lista de Personas
     ListaPersonas listaper = new ListaPersonas();	 
@@ -23,6 +27,7 @@ public class EscribirPersonas {
 	    listaper.add(persona); //aï¿½adir persona a la lista  
       }	
     }catch (EOFException eo) {}
+    
     dataIS.close();  //cerrar stream de entrada     
     
     try {
