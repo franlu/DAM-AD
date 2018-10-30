@@ -21,10 +21,10 @@ public class LeerTeclado {
 
         String entradaTeclado = "";
 
-        //Creación de un objeto Scanner
+        //Creaciï¿½n de un objeto Scanner
         Scanner entradaEscaner = new Scanner(System.in); 
         
-        //Invocamos un método sobre un objeto Scanner
+        //Invocamos un mï¿½todo sobre un objeto Scanner
         entradaTeclado = entradaEscaner.nextLine (); 
 
         System.out.println ("Entrada recibida por teclado es: \"" + entradaTeclado +"\"");

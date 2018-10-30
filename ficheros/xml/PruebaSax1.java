@@ -1,4 +1,4 @@
-package ficheros.xml;
+package xml;
 
 import java.io.*;
 import org.xml.sax.Attributes;
@@ -41,7 +41,7 @@ class GestionContenido extends DefaultHandler {
 	    public void characters(char[] ch, int inicio, int longitud) 
                                             throws SAXException {
 		   String car=new String(ch, inicio, longitud);
-           //quitar saltos de línea	
+           //quitar saltos de lï¿½nea	
 		   car = car.replaceAll("[\t\n]","");	   
 		   System.out.printf ("\t Caracteres: %s %n", car);		
 	    }	

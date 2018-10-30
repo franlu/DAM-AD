@@ -1,16 +1,15 @@
 /**
  * 
  */
-package fichero;
+package ficheros;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
+import java.io.*;
 
 /**
  * @author franlu
  *
  */
-public class escribirLinea {
+public class leerLinea {
 
 	/**
 	 * @param args
@@ -18,16 +17,15 @@ public class escribirLinea {
 	public static void main(String[] args) {
 		
 		try {
-					
-			File f = new File("datos\java.txt");
-			FileWritter fr = new FileWriter(f);
-			BufferedWriter br = new BufferedWriter(fr);
 			
-			int nLineas = 10;
-			for(i=1; i<=nLineas; i++) {
-				br.write("Fila número: " + i);
-				br.newLine();			
-			}
+			File f = new File("datos\java.txt");
+			FileReader fr = new FileReader(f);
+			BufferedReader br = new BufferedReader(fr);
+			
+			String linea;
+			while((linea = br.readLine()) != null)
+				System.out.println(linea);
+			
 			br.close();
 		}
 		catch (FileNotFoundException fn) {
@@ -37,7 +35,7 @@ public class escribirLinea {
 		catch (IOException io) {
 			System.out.println("Error de E/S");
 		}
-		
-			}
+
+	}
 
 }

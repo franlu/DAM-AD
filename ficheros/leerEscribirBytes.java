@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fichero;
+package ficheros;
 
 /**
  * @author franlu

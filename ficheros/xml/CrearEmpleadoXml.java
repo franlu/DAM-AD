@@ -1,4 +1,4 @@
-package ficheros.xml;
+package xml;
 
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
@@ -79,7 +79,7 @@ public class CrearEmpleadoXml {
     file.close();  //cerrar fichero 	
  }//fin de main
  
- //Inserción de los datos del empleado
+ //Inserciï¿½n de los datos del empleado
  static void  CrearElemento(String datoEmple, String valor,
                             Element raiz, Document document){
     Element elem = document.createElement(datoEmple); 

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fichero;
+package ficheros;
 
 import java.io.*;
 
@@ -16,7 +16,7 @@ public class informacion {
 	 */
 	public static void main(String[] args) {
 		
-		System.out.println("Información sobre el fichero");
+		System.out.println("Informaciï¿½n sobre el fichero");
 		File f = new File("\\src\\ficheros\\datos\\info.txt");
 		
 		if (f.exists()){
@@ -25,7 +25,7 @@ public class informacion {
 			System.out.println("Ruta absoluta             : " + f.getAbsolutePath());
 			System.out.println("Se puede leer             : " + f.canRead());
 			System.out.println("Se puede escribir         : " + f.canWrite());
-			System.out.println("Tamaño                    : " + f.length());
+			System.out.println("Tamaï¿½o                    : " + f.length());
 			System.out.println("Es un directorio          : " + f.isDirectory());
 			System.out.println("Es un fichero             : " + f.isFile());
 			System.out.println("Nombre de directorio padre: " + f.getParent());

@@ -1,4 +1,4 @@
-package ficheros.xml;
+package xml;
 import java.io.*;
 import com.thoughtworks.xstream.XStream;
 
@@ -15,7 +15,7 @@ public class EscribirPersonas {
     	ObjectInputStream dataIS = new ObjectInputStream(filein);      
     
 		System.out.println
-           ("Comienza el proceso de creación del fichero a XML ...");
+           ("Comienza el proceso de creaciï¿½n del fichero a XML ...");
 				
     //Creamos un objeto Lista de Personas
     ListaPersonas listaper = new ListaPersonas();	 

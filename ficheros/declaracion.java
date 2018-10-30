@@ -1,7 +1,7 @@
 /**
  * Manipulacion de ficheros
  */
-package fichero;
+package ficheros;
 
 // Clases para manejar la entrada/salida
 import java.io.*;

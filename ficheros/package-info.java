@@ -5,4 +5,4 @@
  * @author franlu
  *
  */
-package fichero;
+package ficheros;

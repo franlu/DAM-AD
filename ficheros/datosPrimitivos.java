@@ -1,7 +1,7 @@
 /**
  * 
  */
-package fichero;
+package ficheros;
 
 import java.io.DataOutputStream;
 import java.io.File;

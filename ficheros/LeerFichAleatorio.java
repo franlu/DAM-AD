@@ -1,4 +1,4 @@
-package fichero;
+package ficheros;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
