@@ -1,4 +1,4 @@
-package xml;
+package ficheros.xml;
 
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
@@ -9,7 +9,7 @@ import java.io.*;
 
 public class CrearEmpleadoXml {
  public static void main(String args[]) throws IOException{
-   File fichero = new File("datos\empleado.dat");   
+   File fichero = new File("datos/empleado.dat");   
    RandomAccessFile file = new RandomAccessFile(fichero, "r");
    
    int  id, dep, posicion=0; //para situarnos al principio del fichero        

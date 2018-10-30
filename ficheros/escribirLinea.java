@@ -3,9 +3,7 @@
  */
 package ficheros;
 
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
-
+import java.io.*;
 /**
  * @author franlu
  *
@@ -19,13 +17,13 @@ public class escribirLinea {
 		
 		try {
 					
-			File f = new File("datos\java.txt");
-			FileWritter fr = new FileWriter(f);
+			File f = new File("datos/java.txt");
+			FileWriter fr = new FileWriter(f);
 			BufferedWriter br = new BufferedWriter(fr);
 			
 			int nLineas = 10;
-			for(i=1; i<=nLineas; i++) {
-				br.write("Fila n�mero: " + i);
+			for(int i=1; i<=nLineas; i++) {
+				br.write("Fila número: " + i);
 				br.newLine();			
 			}
 			br.close();

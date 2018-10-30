@@ -1,4 +1,4 @@
-package xml;
+package ficheros.xml;
 
 import java.io.*;
 import com.thoughtworks.xstream.XStream;

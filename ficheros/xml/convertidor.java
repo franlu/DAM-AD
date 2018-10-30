@@ -1,4 +1,4 @@
-package xml;
+package ficheros.xml;
 
 import org.w3c.dom.*;
 import javax.xml.parsers.*;

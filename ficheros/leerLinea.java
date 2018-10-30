@@ -18,7 +18,7 @@ public class leerLinea {
 		
 		try {
 			
-			File f = new File("datos\java.txt");
+			File f = new File("datos/java.txt");
 			FileReader fr = new FileReader(f);
 			BufferedReader br = new BufferedReader(fr);
 			

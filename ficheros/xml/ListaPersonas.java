@@ -1,4 +1,4 @@
-package xml;
+package ficheros.xml;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package xml;
+package ficheros.xml;
 
 import java.io.*;
 import org.xml.sax.Attributes;
