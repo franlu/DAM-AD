@@ -12,28 +12,28 @@ Interfaces para usar DOM
 - **DocumentType:** Información de la etiqueta DOCTYPE.
 
 Empleado
-- [Crear y escribir](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/CrearEmpleadoXml.java)
-- [Leer](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/LecturaEmpleadoXml.java)
+- [Crear y escribir](https://github.com/franlu/DAM-AD/blob/master/ficheros/xml/CrearEmpleadoXml.java)
+- [Leer](https://github.com/franlu/DAM-AD/blob/master/ficheros/xml/LecturaEmpleadoXml.java)
 
 **Actividad:**
 Crear un documento XML partiendo del fichero que contiene información sobre las canciones (lista de reproducción). Mostrar el contenido del documento por consola.
 	
 Acceso a ficheros XML con SAX
-- [Ejemplo](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/PruebaSax1.java)
+- [Ejemplo](https://github.com/franlu/DAM-AD/blob/master/ficheros/xml/PruebaSax1.java)
 
 **Actividad:**
 Utiliza SAX para visualizar el contendio del fichero XML que contiene información sobre canciones.	
 
 Serialización de objetos
-- [Crear Lista de personas](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/ListaPersonas.java)
-- [Escribir Personas](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/EscribirPersonas.java)
-- [Leer Personas](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/LeerPersonas.java)
+- [Crear Lista de personas](https://github.com/franlu/DAM-AD/blob/master/ficheros/xml/ListaPersonas.java)
+- [Escribir Personas](https://github.com/franlu/DAM-AD/blob/master/ficheros/xml/EscribirPersonas.java)
+- [Leer Personas](https://github.com/franlu/DAM-AD/blob/master/ficheros/xml/LeerPersonas.java)
 
 **Actividad:**
 Serializar los objetos canción a un fichero XML.
 	
 Conversión a otros formatos
-- [Conversor](https://github.com/franlu/DAM-AD/blob/master/src/ficheros/xml/convertidor.java)
+- [Conversor](https://github.com/franlu/DAM-AD/blob/master/ficheros/xml/convertidor.java)
 
 **Actividad:**
 Crea una plantilla para convertir el fichero xml de canciones en un fichero html. Realiza la conversión.
