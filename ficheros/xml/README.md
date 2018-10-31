@@ -18,7 +18,7 @@ Empleado
 **Actividad:**
 Crear un documento XML partiendo del fichero que contiene información sobre las canciones (lista de reproducción). Mostrar el contenido del documento por consola.
 	
-Acceso a ficheros XML con SAX
+Acceso a ficheros XML con SAX(API Simple para XML)
 - [Ejemplo](https://github.com/franlu/DAM-AD/blob/master/ficheros/xml/PruebaSax1.java)
 
 **Actividad:**
