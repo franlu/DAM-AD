@@ -1,6 +1,6 @@
 # Paquete ficheros
 
-Ejemplos utilizando las clases asociadas a la manipulaciÃ³n de ficheros y directorios
+Ejemplos utilizando las clases asociadas a la manipulación de ficheros y directorios
 
 - File, FileReader, FileWritter, BufferedReader, BufferedWriter
 
@@ -32,4 +32,6 @@ Ejemplos utilizando las clases asociadas a la manipulaciÃ³n de ficheros y dire
 
 
 ## JABX
-Tecnología Java que permite mapear clases Java a respresentaciones XML
+Tecnología Java que permite mapear clases Java a representaciones XML y viceversa.
+
+- [Mapear clase a XML](https://github.com/franlu/DAM-AD/tree/master/ficheros/jabx)
