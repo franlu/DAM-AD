@@ -32,3 +32,4 @@ Ejemplos utilizando las clases asociadas a la manipulaciÃ³n de ficheros y dire
 
 
 ## JABX
+Tecnología Java que permite mapear clases Java a respresentaciones XML
