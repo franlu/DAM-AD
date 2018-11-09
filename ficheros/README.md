@@ -35,4 +35,4 @@ Ejemplos utilizando las clases asociadas a la manipulación de ficheros y direct
 Tecnología Java que permite mapear clases Java a representaciones XML y viceversa.
 
 - [Mapear clase a XML](https://github.com/franlu/DAM-AD/tree/master/ficheros/jabx/MapearXML)
-- [Mapear XML a Clase](https://github.com/franlu/DAM-AD/tree/master/ficheros/jabx/MapearClase)
+- [Mapear XML a Clase](https://github.com/franlu/DAM-AD/tree/master/ficheros/jabx)
