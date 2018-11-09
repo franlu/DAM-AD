@@ -1,4 +1,4 @@
-package ficheros.xml;
+package test;
 import java.io.*;
 import com.thoughtworks.xstream.XStream;
 
@@ -7,7 +7,7 @@ public class EscribirPersonas {
 	public static void main(String[] args)
           throws IOException, ClassNotFoundException {   	
     
-		File fichero = new File("persona.dat");
+		File fichero = new File("personas.dat");
    		FileInputStream filein = new 
                FileInputStream(fichero);//flujo de entrada   
     
