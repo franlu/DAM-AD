@@ -21,10 +21,10 @@ public class principal {
 	public static void main(String[] args) {
 
 		visualizarxml();
-		// M�todo para a�adir una venta, recibe el n�mero de venta,
+		// Método para añadir una venta, recibe el número de venta,
 		// las unidades
 		// el nombre cliente, la fecha
-		// Comprobar que el nm�mero de venta no exista
+		// Comprobar que el número de venta no exista
 		insertarventa(30, "Cliente 2", 10, "16-10-2018");
 		// visualizarxml();
 	}
@@ -70,17 +70,17 @@ public class principal {
 			System.out.println("---------------------------- ");
 			System.out.println("---VISUALIZAR LOS OBJETOS--- ");
 			System.out.println("---------------------------- ");
-			// Datos del art�culo
+			// Datos del artículo
 			DatosArtic miartic = (DatosArtic) miventa.getArticulo();
 
 			System.out.println("Nombre art: " + miartic.getDenominacion());
 			System.out.println("Codigo art: " + miartic.getCodigo());
 			System.out.println("Stock art: " + miartic.getCodigo());
-			System.out.println("Ventas  del art�culo , hay: " + listaVentas.size());
+			System.out.println("Ventas  del artúculo , hay: " + listaVentas.size());
 
 			for (int i = 0; i < listaVentas.size(); i++) {
 				Ventas.Venta ve = (Venta) listaVentas.get(i);
-				System.out.println("N�mero de venta: " + ve.getNumventa() + ". Nombre cliente: " + ve.getNombrecliente()
+				System.out.println("Número de venta: " + ve.getNumventa() + ". Nombre cliente: " + ve.getNombrecliente()
 						+ ", unidades: " + ve.getUnidades() + ", fecha: " + ve.getFecha());
 			}
 
@@ -92,11 +92,10 @@ public class principal {
 
 	}
 
-	/////////////////////////////////////////////////
 	private static void insertarventa(int numeventa, String nomcli, int uni, String fecha) {
 
 		System.out.println("---------------------------- ");
-		System.out.println("-------A�ADIR VENTA--------- ");
+		System.out.println("-------AÑADIR VENTA--------- ");
 		System.out.println("---------------------------- ");
 		try {
 
@@ -113,7 +112,7 @@ public class principal {
 			List listaVentas = new ArrayList();
 			listaVentas = vent.getVenta();
 
-			// comprobar si existe el n�mero de venta, reccorriendo el arraylist
+			// comprobar si existe el número de venta, reccorriendo el arraylist
 			int existe = 0; // si no existe, 1 si existe
 			for (int i = 0; i < listaVentas.size(); i++) {
 				Ventas.Venta ve = (Venta) listaVentas.get(i);
@@ -134,7 +133,7 @@ public class principal {
 				BigInteger nume = BigInteger.valueOf(numeventa);
 				ve.setNumventa(nume);
 
-				// a�adimos la venta a la lista
+				// añadimos la venta a la lista
 
 				listaVentas.add(ve);
 
@@ -143,7 +142,7 @@ public class principal {
 				m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
 				m.marshal(jaxbElement, new FileOutputStream("./ventasarticulos.xml"));
 
-				System.out.println("Venta a�adida: " + numeventa);
+				System.out.println("Venta añaadida: " + numeventa);
 
 			} else
 
@@ -156,6 +155,5 @@ public class principal {
 		}
 
 	}
-	/////////////////////////////
 
 }
