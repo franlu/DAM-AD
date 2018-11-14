@@ -1,4 +1,4 @@
-# Conectores a BD
+# Conectores a BD (JDBC)
 
 ### Drivers
 
@@ -12,6 +12,11 @@
 ### Ejemplos
 
 - [MySQL](https://github.com/franlu/DAM-AD/tree/master/conectores/ConnMySQL.java)
+- [DataBaseMetaData](https://github.com/franlu/DAM-AD/tree/master/conectores/Databasemetadata.java)
+- [ResultSetMetaData](https://github.com/franlu/DAM-AD/tree/master/conectores/Resultsetmetadata.java)
+- [Execute](https://github.com/franlu/DAM-AD/tree/master/conectores/Execute.java)
+- [ExecuteUpdate](https://github.com/franlu/DAM-AD/tree/master/conectores/ExecuteUpdate.java)
+- [Vista](https://github.com/franlu/DAM-AD/tree/master/conectores/CrearVista.java)
 
 
 ### Ejercicio

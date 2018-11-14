@@ -1,9 +1,4 @@
 package conectores;
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 import java.sql.*;
 
@@ -46,6 +41,10 @@ public class ConnMySQL {
 	        }
 	        catch (SQLException e){
 	            e.printStackTrace();
+	            // System.out.printf("Mensaje     : %s %n", e.getMessage());
+	            // System.out.printf("SQL estado  : %s %n", e.getSQLState());
+	            // System.out.printf("Código error: %s %n", e.getErrorCode());
+	        
 	        } finally {
 	            stmt.close();
 	            con.close();
