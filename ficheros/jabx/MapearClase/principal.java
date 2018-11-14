@@ -26,10 +26,10 @@ public class principal {
 		// el nombre cliente, la fecha
 		// Comprobar que el número de venta no exista
 		insertarventa(30, "Cliente 2", 10, "16-10-2018");
-		// visualizarxml();
+		visualizarxml();
 	}
 
-	////////////////////////////////////////
+
 	public static void visualizarxml() {
 
 		System.out.println("------------------------------ ");
@@ -142,7 +142,7 @@ public class principal {
 				m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
 				m.marshal(jaxbElement, new FileOutputStream("./ventasarticulos.xml"));
 
-				System.out.println("Venta añaadida: " + numeventa);
+				System.out.println("Venta añadida: " + numeventa);
 
 			} else
 
