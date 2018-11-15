@@ -19,7 +19,7 @@ public class ConnMySQL {
 	        				); 
 	        
 	        String sql = "CREATE TABLE IF NOT EXISTS USUARIO " +
-	               "(id INTEGER not NULL, " +
+	               "(id INTEGER not NULL AUTOINCREMENT, " +
 	               " nombre VARCHAR(255), " + 
 	               " apellido VARCHAR(255), " + 
 	               " edad INTEGER, " + 
