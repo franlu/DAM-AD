@@ -1,4 +1,4 @@
-package conectores;
+package mysql;
 
 import java.sql.*;
 

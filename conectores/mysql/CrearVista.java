@@ -1,4 +1,4 @@
-package conectores;
+package mysql;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -24,7 +24,7 @@ public class CrearVista {
 		
 		Statement sentencia = conexion.createStatement();
 		int filas = sentencia.executeUpdate(sql.toString());
-		System.out.printf("Resultado  de la ejecución: %d %n", filas);
+		System.out.printf("Resultado  de la ejecuciï¿½n: %d %n", filas);
 
 		sentencia.close();
 		conexion.close(); 

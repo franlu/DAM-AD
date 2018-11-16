@@ -1,6 +1,7 @@
+package mysql;
 import java.sql.*;
 
-public class InsertaDepPreparedStatement {
+public class SentenciaPreparada {
 	public static void main(String[] args) {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
