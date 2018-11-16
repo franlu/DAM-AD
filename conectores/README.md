@@ -28,4 +28,6 @@
 
 ### Ejercicio
 
-Crea un programa que se conecte a una base de datos SQLite (local). Implementa métodos diferentes para realizar las operaciones básicas sobre una BD (CRUD).
+1. Crea un programa que se conecte a una base de datos SQLite (local). El programa creará una tabla con 6 campos de diferentes tipos. Implementa métodos diferentes para realizar las operaciones básicas sobre una BD (CRUD).
+
+2. Añade una interfaz gráfica al ejercicio anterior que permita visualizar cada campo de la tabla en función del ID de la tabla. De contener botones para insertar, eliminar y modificar un registro de la tabla. Un botón para salir y otro para limpiar los datos.
