@@ -11,9 +11,9 @@
 
 ### Ejemplos
 
-1. [MySQL](https://github.com/franlu/DAM-AD/tree/master/conectores/ConnMySQL.java)
-2. [DataBaseMetaData](https://github.com/franlu/DAM-AD/tree/master/conectores/Databasemetadata.java)
-3. [ResultSetMetaData](https://github.com/franlu/DAM-AD/tree/master/conectores/Resultsetmetadata.java)
+1. [MySQL](https://github.com/franlu/DAM-AD/blob/master/UD2-Conectores/mysql/ConnMySQL.java)
+2. [DataBaseMetaData](https://github.com/franlu/DAM-AD/blob/master/UD2-Conectores/mysql/Databasemetadata.java)
+3. [ResultSetMetaData](https://github.com/franlu/DAM-AD/blob/master/UD2-Conectores/mysql/Resultsetmetadata.java)
 
 **Métodos del objeto Statement**
 
@@ -21,10 +21,10 @@
 - **executeUpdate(String):** Se utiliza para sentencias INSERT, UPDATE, DELETE, CREATE, DROP, ALTER. Devuelve el número de filas afectadas y para las sentencias DDL devuelve 0.
 - **execute(String):** Se pude usar para cualquier sentencia. Devuelve true si devuelve un ResulSet (getResultSet) y false si devuelve un recuento de filas (getUpdateCount)
 
-4. [Execute](https://github.com/franlu/DAM-AD/tree/master/conectores/Execute.java)
-5. [ExecuteUpdate](https://github.com/franlu/DAM-AD/tree/master/conectores/ExecuteUpdate.java)
-6. [Vista](https://github.com/franlu/DAM-AD/tree/master/conectores/CrearVista.java)
-7. [Sentencia Preparada](https://github.com/franlu/DAM-AD/tree/master/conectores/SentenciaPreparada.java)
+4. [Execute](https://github.com/franlu/DAM-AD/blob/master/UD2-Conectores/mysql/Execute.java)
+5. [ExecuteUpdate](https://github.com/franlu/DAM-AD/blob/master/UD2-Conectores/mysql/ExecuteUpdate.java)
+6. [Vista](https://github.com/franlu/DAM-AD/blob/master/UD2-Conectores/mysql/CrearVista.java)
+7. [Sentencia Preparada](https://github.com/franlu/DAM-AD/blob/master/UD2-Conectores/mysql/SentenciaPreparada.java)
 
 ### Ejercicio
 
