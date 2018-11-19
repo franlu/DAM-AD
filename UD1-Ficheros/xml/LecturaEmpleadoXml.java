@@ -1,4 +1,4 @@
-package ficheros.xml;
+package xml;
 
 
 import java.io.File;

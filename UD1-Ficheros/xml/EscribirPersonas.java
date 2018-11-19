@@ -1,4 +1,4 @@
-package test;
+package xml;
 import java.io.*;
 import com.thoughtworks.xstream.XStream;
 

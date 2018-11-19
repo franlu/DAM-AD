@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ficheros;
+package manipulacion;
 
 /**
  * @author franlu

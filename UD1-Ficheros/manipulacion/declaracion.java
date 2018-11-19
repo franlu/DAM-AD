@@ -1,10 +1,9 @@
 /**
  * Manipulacion de ficheros
  */
-package ficheros;
+package manipulacion;
 
 // Clases para manejar la entrada/salida
-import java.io.*;
 import java.util.Scanner;
 
 /**
@@ -16,6 +15,7 @@ public class declaracion {
 	/**
 	 * @param args
 	 */
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		 System.out.println ("Empezamos el programa");

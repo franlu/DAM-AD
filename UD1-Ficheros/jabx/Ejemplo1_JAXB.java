@@ -1,4 +1,4 @@
-package jaxb;
+package jabx;
 
 import java.io.File;
 import java.io.FileReader;

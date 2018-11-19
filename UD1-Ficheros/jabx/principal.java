@@ -1,4 +1,4 @@
-package operaciones;
+package jabx;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

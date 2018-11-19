@@ -1,9 +1,9 @@
 # Acceso a Datos
 Materiales para el módulo Acceso a Datos de CFGS DAM
 
-- [Manipulación de Ficheros](https://github.com/franlu/DAM-AD/tree/master/ficheros)
+- [Manipulación de Ficheros](https://github.com/franlu/DAM-AD/tree/master/UD1-Ficheros)
 
-- [Conectores](https://github.com/franlu/DAM-AD/tree/master/conectores)
+- [Conectores](https://github.com/franlu/DAM-AD/tree/master/UD2-Conectores)
 
 - [Utilidades](https://github.com/franlu/DAM-AD/tree/master/utilidades)
 

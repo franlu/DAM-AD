@@ -1,4 +1,4 @@
-package jaxb;
+package jabx;
 
 import javax.xml.bind.annotation.XmlType; 
 
