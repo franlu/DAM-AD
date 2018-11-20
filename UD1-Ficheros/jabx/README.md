@@ -2,6 +2,8 @@
 
 > Es posible que algunas versiones de Eclipse necesiten instalar Web Tools Platform(WTP) para disponer de la herramienta que genera las clases JABX
 
+[Repositorio para descargar WTP](http://download.eclipse.org/webtools/updates/)
+
 Documentación
 - [XSD en W3C](https://www.w3schools.com/xml/schema_intro.asp)
 - [Presentación XSD](http://di002.edv.uniovi.es/~labra/cursos/XML/XMLSchema.pdf)
