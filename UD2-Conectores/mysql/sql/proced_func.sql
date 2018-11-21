@@ -1,14 +1,14 @@
-DELIMETER //
+DELIMITER $$
 CREATE PROCEDURE subida_sal(d INT, subida INT)
 BEGIN
 UPDATE empleados SET salario = salario + subida WHERE dpto_no = d;
 COMMIT;
 END;
-//
+
 
 
 --
-DELIMETER //
+DELIMITER $$
 CREATE FUNCTION nombre_dep(d INT) RETURNS VARCHAR(15)
 BEGIN
 	DECLARE nombre VARCHAR(15);
@@ -17,11 +17,10 @@ BEGIN
 	WHERE dpto_no = d;
 	RETURN NOMBRE;
 END;
-//
 
 
 --Recibe un número de dpto y devuelve en forma de parámetros de salida nombre y localidad
-DELIMETER //
+DELIMITER $$
 CREATE PROCEDURE datos_dep(d INT, OUT nombre VARCHAR(15), OUT localidad VARCHAR(15))
 BEGIN
 	SET nombre = 'NO EXISTE';
@@ -29,4 +28,3 @@ BEGIN
 	SELECT dnombre, loc INTO nombre, localidad FROM departamentos
 	WHERE dpto_no = d;
 END;
-//
