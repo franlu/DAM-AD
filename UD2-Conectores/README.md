@@ -35,7 +35,7 @@
 
 8. [Procedimiento](mysql/Procedimiento.java)
 
-** Transacciones **
+**Transacciones**
 
 ![Esquema](img/transacciones_jdbc.png)
 
