@@ -5,7 +5,7 @@ import java.sql.*;
 public class Procedimiento {
 	public static void main(String[] args) {
 		try {
-			Class.forName("com.mysql.jdbc.Driver"); // Cargar el driver
+			Class.forName("com.mysql.cj.jdbc.Driver"); // Cargar el driver
 			Connection conexion = DriverManager.getConnection(
 					"jdbc:mysql://localhost/ejemplo", "ejemplo",
 					    "ejemplo");
