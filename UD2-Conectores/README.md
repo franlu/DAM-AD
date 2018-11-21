@@ -35,6 +35,11 @@
 
 8. [Procedimiento](mysql/Procedimiento.java)
 
+** Transacciones **
+
+![Esquema](img/transacciones_jdbc.png)
+
+
 ### Ejercicio
 
 1. Crea un programa que se conecte a una base de datos SQLite (local). El programa creará una tabla con 6 campos de diferentes tipos. Implementa métodos diferentes para realizar las operaciones básicas sobre una BD (CRUD).
