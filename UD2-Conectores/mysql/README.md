@@ -1,12 +1,12 @@
 # MySQL
 
-### Ejemplos
+### Conexión
 
 1. [MySQL](mysql/ConnMySQL.java)
 2. [DataBaseMetaData](mysql/Databasemetadata.java)
 3. [ResultSetMetaData](mysql/Resultsetmetadata.java)
 
-**Métodos del objeto Statement**
+### Métodos del objeto Statement
 
 - **executeQuery(String):** Recuperar datos de un único objeto ResulSet. Principalmente bajo la sentencia SELECT
 - **executeUpdate(String):** Se utiliza para sentencias INSERT, UPDATE, DELETE, CREATE, DROP, ALTER. Devuelve el número de filas afectadas y para las sentencias DDL devuelve 0.
@@ -17,7 +17,7 @@
 6. [Vista](mysql/CrearVista.java)
 7. [Sentencia Preparada](mysql/SentenciaPreparada.java)
 
-**Declaración de llamadas a procedimientos y funciones**
+### Declaración de llamadas a procedimientos y funciones
 
 	- {call nombre_procedimiento}: sin parámetros
 	- { ? = call nombre_funcion}: devuelve un valor
@@ -26,7 +26,7 @@
 
 8. [Procedimiento](mysql/Procedimiento.java)
 
-**Transacciones**
+### Transacciones
 
 [Canal makigas](https://www.youtube.com/channel/UCQufRmIMRTLdRxTsXCh4-5w) 
 - [Transacciones, commits y rollbacks (parte 1)](https://www.youtube.com/watch?v=oDo8Kr9YqE8)
