@@ -2,9 +2,9 @@
 
 ### Conexión
 
-1. [MySQL](mysql/ConnMySQL.java)
-2. [DataBaseMetaData](mysql/Databasemetadata.java)
-3. [ResultSetMetaData](mysql/Resultsetmetadata.java)
+1. [MySQL](ConnMySQL.java)
+2. [DataBaseMetaData](Databasemetadata.java)
+3. [ResultSetMetaData](Resultsetmetadata.java)
 
 ### Métodos del objeto Statement
 
@@ -12,10 +12,10 @@
 - **executeUpdate(String):** Se utiliza para sentencias INSERT, UPDATE, DELETE, CREATE, DROP, ALTER. Devuelve el número de filas afectadas y para las sentencias DDL devuelve 0.
 - **execute(String):** Se pude usar para cualquier sentencia. Devuelve true si devuelve un ResulSet (getResultSet) y false si devuelve un recuento de filas (getUpdateCount)
 
-4. [Execute](mysql/Execute.java)
-5. [ExecuteUpdate](mysql/ExecuteUpdate.java)
-6. [Vista](mysql/CrearVista.java)
-7. [Sentencia Preparada](mysql/SentenciaPreparada.java)
+4. [Execute](Execute.java)
+5. [ExecuteUpdate](ExecuteUpdate.java)
+6. [Vista](CrearVista.java)
+7. [Sentencia Preparada](SentenciaPreparada.java)
 
 ### Declaración de llamadas a procedimientos y funciones
 
@@ -24,7 +24,7 @@
 	- {call nombre_procedimiento(?,?,...)}: recibe parámetros
 	- {? = nombre_funcion(?,?,...)}: devuelve un valor (primer parámetro) y recibe varios parámetros
 
-8. [Procedimiento](mysql/Procedimiento.java)
+8. [Procedimiento](Procedimiento.java)
 
 ### Transacciones
 
@@ -43,7 +43,7 @@
 
 ### Práctica
 
-1. Crea un DB en db4free con las sentencias que aparecen en el fichero [dpto_empleados](mysql/sql/dpto_empleados.sql)
+1. Crea un DB en db4free con las sentencias que aparecen en el fichero [dpto_empleados](sql/dpto_empleados.sql)
 
 2. Visualiza el número y nombre de todos los departamentos.
 3. Modificar el nombre de un departamento cuyo número (y nombre) se pasen como argumento. No utilizar sentencias preparadas. Visualizar el número de filas afectadas.
@@ -60,10 +60,9 @@ métodos. Controlar errores y utilizar sentencias preparadas:
 	- Ídem del anterior pero devolviendo el número de filas afectadas.
 	- Método que reciba un número de departamento y actualice su localidad (segundo argumento del método). Utilizar el siguiente procedimiento:
 	```
-	delimiter //
+	delimiter $$
 	CREATE PROCEDURE actualizaDept(cod INT(2), localidad VARCHAR(13))
 	BEGIN
 	UPDATE Dept SET loc=localidad WHERE deptno = cod;
 	END;
-	//
 ```
