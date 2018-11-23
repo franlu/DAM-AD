@@ -28,11 +28,11 @@ Ejemplos utilizando las clases asociadas a la manipulación de ficheros y direct
 
 ## XML
 
-- [Gestión](manipulacion/xml)
+- [Gestión](xml)
 
 
 ## JABX
 Tecnología Java que permite mapear clases Java a representaciones XML y viceversa.
 
-- [Mapear clase a XML](manipulacion/jabx/MapearXML)
-- [Mapear XML a Clase](manipulacion/jabx)
+- [Mapear clase a XML](jabx/MapearXML)
+- [Mapear XML a Clase](jabx)
