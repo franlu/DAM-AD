@@ -71,7 +71,7 @@ métodos. Controlar errores y utilizar sentencias preparadas:
 	
 - Método que reciba un número de departamento y devuelva un objeto con sus datos. 
 	Utilizar el siguiente procedimiento MySQL:
-		
+	```	
 	delimiter $$
 	CREATE DEFINER=`root`@`localhost` PROCEDURE `consultaDepar`(in
 	num int(2), out name varchar(14), out local varchar(13))
@@ -80,8 +80,8 @@ métodos. Controlar errores y utilizar sentencias preparadas:
 	from dept 
 	where dept.deptno=num;
 	end;
-		
+	```	
 - Método que reciba una cantidad y un número de departamento e incremente el sueldo 		de todos los empleados de ese departamento en esa cantidad. La actualización la 		realizará un procedimiento MySQL que se creará previamente.
-	- Ídem del anterior pero no haciendo uso de un procedimiento MySQL sino de un resultset.
-	- Método que imprima el gestor de base de datos empleado, el driver utilizado y el usuario conectado.
-	- Método que imprima del esquema actual todas las tablas y vistas que contiene, indicando además del nombre, si se trata de una tabla o una vista.
+- Ídem del anterior pero no haciendo uso de un procedimiento MySQL sino de un resultset.
+- Método que imprima el gestor de base de datos empleado, el driver utilizado y el usuario conectado.
+- Método que imprima del esquema actual todas las tablas y vistas que contiene, indicando además del nombre, si se trata de una tabla o una vista.
