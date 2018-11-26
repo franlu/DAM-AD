@@ -68,7 +68,8 @@ métodos. Controlar errores y utilizar sentencias preparadas:
 	```
 #### Bonus Track
 
-	- Método que reciba un número de departamento y devuelva un objeto con sus datos. 		  Utilizar el siguiente procedimiento MySQL:
+	- Método que reciba un número de departamento y devuelva un objeto con sus datos. 
+	Utilizar el siguiente procedimiento MySQL:
 		```
 		delimiter $$
 		CREATE DEFINER=`root`@`localhost` PROCEDURE `consultaDepar`(in
