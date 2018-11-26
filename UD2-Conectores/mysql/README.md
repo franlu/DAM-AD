@@ -65,7 +65,7 @@ métodos. Controlar errores y utilizar sentencias preparadas:
 	BEGIN
 	UPDATE Dept SET loc=localidad WHERE deptno = cod;
 	END;
-```
+	```
 #### Bonus Track
 
 	- Método que reciba un número de departamento y devuelva un objeto con sus datos. 		  Utilizar el siguiente procedimiento MySQL:
